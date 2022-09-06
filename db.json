@@ -1,0 +1,24 @@
+{
+  "productos": [
+    {
+      "nombre": "Rib Eye",
+      "precio": "500",
+      "id": 1
+    },
+    {
+      "nombre": "Jugo de Limón",
+      "precio": "300",
+      "id":2
+    },
+    {
+      "nombre": "Zumo de naranja",
+      "precio": "300",
+      "id":3
+    },
+    {
+        "nombre": "Zumo de melocotón",
+        "precio": "300",
+        "id":4
+      }
+  ]
+}
