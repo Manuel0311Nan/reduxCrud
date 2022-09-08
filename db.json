@@ -8,17 +8,32 @@
     {
       "nombre": "Jugo de Limón",
       "precio": "300",
-      "id":2
+      "id": 2
     },
     {
       "nombre": "Zumo de naranja",
       "precio": "300",
-      "id":3
+      "id": 3
     },
     {
-        "nombre": "Zumo de melocotón",
-        "precio": "300",
-        "id":4
-      }
+      "nombre": "Zumo de melocotón",
+      "precio": "300",
+      "id": 4
+    },
+    {
+      "nombre": "zumo de uva",
+      "precio": 250,
+      "id": 5
+    },
+    {
+      "nombre": "Zumo de piña",
+      "precio": 125,
+      "id": 6
+    },
+    {
+      "nombre": "Zumo de fresa",
+      "precio": 250,
+      "id": 7
+    }
   ]
 }
