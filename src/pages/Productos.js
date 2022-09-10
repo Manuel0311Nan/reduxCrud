@@ -1,6 +1,20 @@
-import React, {Fragment} from 'react'
+import React, {Fragment, useEffect} from 'react'
+
+import { useSelector, useDispatch } from 'react-redux';
+import { obtenerProductosAction } from '../actions/productoActions';
 
 export const Productos = () => {
+
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    const cargarProductos = () => dispatch( obtenerProductosAction());
+      cargarProductos();
+  }, [])
+
+  const productos = useSelector(state => state.productos.productos);
+  console.log(productos)
+
   return (
     <Fragment>
       <h2 className='text-center my-5'> Listado de Productos</h2>
